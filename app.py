@@ -23,6 +23,9 @@ st.write("""
           """
           )
 
+st.subheader("Please upload the cloth that you want to put in the shop and the model will return respective category")
+
+
 file = st.file_uploader("Please upload the photo shooting the cloths", type=["jpg", "png"])
 
 def run_example():
